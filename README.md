@@ -7,7 +7,7 @@
 * **Fecha:** 18/10/2026
 
 ## Descripción
-Práctica que incluye Git y GitHub, base de datos SQL, métodos HTTP y consultas a una API pública mediante Fetch.
+Trabajo universitario sobre programación web, gestión de datos y consumo de servicios web mediante JavaScript.
 
 ## Resolución del conflicto de Git
 1. Se modificó la misma línea del README en dos ramas diferentes.
