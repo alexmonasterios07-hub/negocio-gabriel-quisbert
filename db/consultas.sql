@@ -45,3 +45,11 @@ and not exists (
     from pedidos
     where pedidos.cliente_id = clientes.id
 );
+
+--8. Productos con poco stock, su categoria y precio
+select productos.nombre, categorias.nombre as categoria,
+productos.precio, productos.stock
+from productos
+inner join categorias on productos.categoria_id = categorias.id
+where productos.stock < 5
+order by productos.stock asc;
