@@ -7,7 +7,7 @@
 * **Fecha:** 18/10/2026
 
 ## Descripción
-Práctica que incluye Git y GitHub, base de datos SQL, métodos HTTP y consultas a una API pública mediante Fetch.
+Proyecto académico que integra Git y GitHub, bases de datos SQL, métodos HTTP y la API de Pokémon.
 
 ## Resolución del conflicto de Git
 1. Se modificó la misma línea del README en dos ramas diferentes.
