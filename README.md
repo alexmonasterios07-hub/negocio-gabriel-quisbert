@@ -7,8 +7,7 @@
 * **Fecha:** 18/10/2026
 
 ## Descripción
-Trabajo universitario sobre programación web, gestión de datos y consumo de servicios web mediante JavaScript.
-
+Proyecto académico que integra Git y GitHub, bases de datos SQL, métodos HTTP y el consumo de la API de Pokémon mediante JavaScript.
 ## Resolución del conflicto de Git
 1. Se modificó la misma línea del README en dos ramas diferentes.
 2. Al fusionarlas, Git detectó un conflicto que debía resolverse manualmente.
