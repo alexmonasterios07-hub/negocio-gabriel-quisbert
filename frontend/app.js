@@ -20,6 +20,10 @@ if (busqueda === "") {
     mensaje.textContent = "Por favor, escribe el nombre de un Pokémon.";
     return;
 }
+if (!/^[a-z0-9-]+$/.test(busqueda)) {
+    mensaje.textContent = "Usa solo letras, números o guiones, sin espacios.";
+    return;
+}
 
 mensaje.textContent = "Cargando...";
 
