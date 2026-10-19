@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  }
+
+body {
+margin: 0;
+padding: 30px 15px;
+font-family: Arial, sans-serif;
+background: #f0f4f8;
+color: #263238;
+text-align: center;
+}
+
+h1 {
+color: #d62828;
+margin-bottom: 10px;
+}
+
+body > p {
+color: #546e7a;
+}
+
+#nombrePokemon {
+padding: 12px;
+width: 230px;
+max-width: 100%;
+border: 1px solid #b0bec5;
+border-radius: 8px;
+font-size: 16px;
+}
+
+#btnBuscar {
+padding: 12px 20px;
+margin-left: 5px;
+border: none;
+border-radius: 8px;
+background: #d62828;
+color: white;
+font-size: 16px;
+cursor: pointer;
+}
+
+#btnBuscar:hover {
+background: #a4161a;
+}
+
+#mensaje {
+min-height: 24px;
+margin-top: 20px;
+font-weight: bold;
+}
+
+#resultado {
+max-width: 380px;
+margin: 20px auto;
+padding: 25px;
+background: white;
+border-radius: 16px;
+box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+#nombre {
+color: #d62828;
+text-transform: capitalize;
+}
+
+#imagen {
+width: 160px;
+height: 160px;
+object-fit: contain;
+}
+
+#tipos,
+#peso,
+#altura {
+padding: 8px;
+margin: 8px 0;
+background: #f0f4f8;
+border-radius: 8px;
+}
+
+@media (max-width: 480px) {
+#nombrePokemon {
+width: 100%;
+margin-bottom: 10px;
+}
+
+
+#btnBuscar {
+    margin-left: 0;
+}
+
+
+}
